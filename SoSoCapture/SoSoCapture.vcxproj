@@ -93,7 +93,7 @@
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
       <WarningLevel>Level3</WarningLevel>
-      <AdditionalIncludeDirectories>..\ffmpeg\include;$(SOUIPATH)\config;$(SOUIPATH)\components;$(SOUIPATH)\SOUI\include;$(SOUIPATH)\utilities\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)ffmpeg\include;$(SOUIPATH)\config;$(SOUIPATH)\components;$(SOUIPATH)\SOUI\include;$(SOUIPATH)\utilities\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_WINDOWS;STRICT;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <BrowseInformation>true</BrowseInformation>
@@ -103,7 +103,7 @@
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>..\ffmpeg\lib;$(SOUIPATH)\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)ffmpeg\lib;$(SOUIPATH)\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>utilitiesd.lib;souid.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SubSystem>Windows</SubSystem>
     </Link>
@@ -117,7 +117,7 @@
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
       <WarningLevel>Level3</WarningLevel>
-      <AdditionalIncludeDirectories>..\ffmpeg\include;$(SOUIPATH)\config;$(SOUIPATH)\components;$(SOUIPATH)\SOUI\include;$(SOUIPATH)\utilities\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)ffmpeg\include;$(SOUIPATH)\config;$(SOUIPATH)\components;$(SOUIPATH)\SOUI\include;$(SOUIPATH)\utilities\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <WholeProgramOptimization>true</WholeProgramOptimization>
@@ -125,7 +125,7 @@
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>..\ffmpeg\lib;$(SOUIPATH)\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)ffmpeg\lib;$(SOUIPATH)\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>utilities.lib;soui.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SubSystem>Windows</SubSystem>
     </Link>
